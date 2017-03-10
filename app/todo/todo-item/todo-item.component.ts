@@ -1,5 +1,5 @@
 import {Component, Input, Output, EventEmitter} from '@angular/core';
-import {Todo} from '../shared/models/todo';
+import {Todo} from '../../shared/models/todo';
 @Component({
   moduleId: module.id,
   selector: 'todo-item',

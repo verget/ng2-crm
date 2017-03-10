@@ -14,12 +14,12 @@ var router_1 = require("@angular/router");
 var angular_in_memory_web_api_1 = require("angular-in-memory-web-api");
 var app_routing_1 = require("./app.routing");
 var app_component_1 = require("./app.component");
+var todo_component_1 = require("./todo/todo.component");
 var todo_list_component_1 = require("./todo/todo-list/todo-list.component");
 var todo_form_component_1 = require("./todo/todo-form/todo-form.component");
 var todo_item_component_1 = require("./todo/todo-item/todo-item.component");
 var todo_service_1 = require("./shared/todo.service");
 var data_service_1 = require("./shared/data.service");
-var todo_component_1 = require("./todo/todo.component");
 var AppModule = (function () {
     function AppModule() {
     }

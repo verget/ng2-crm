@@ -7,13 +7,13 @@ import {InMemoryWebApiModule} from "angular-in-memory-web-api";
 import {appRouting} from "./app.routing";
 import {AppComponent} from './app.component';
 
+import {TodoComponent} from "./todo/todo.component";
 import {TodoListComponent} from "./todo/todo-list/todo-list.component";
 import {TodoFormComponent} from "./todo/todo-form/todo-form.component";
 import {TodoItemComponent} from "./todo/todo-item/todo-item.component";
 
 import {TodoService} from "./shared/todo.service";
 import {InMemoryDataService} from "./shared/data.service";
-import {TodoComponent} from "./todo/todo.component";
 
 
 @NgModule({
